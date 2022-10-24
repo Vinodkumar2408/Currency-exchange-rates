@@ -1,0 +1,24 @@
+.formdata{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-image:linear-gradient(rgb(30, 92, 236),rgb(157, 189, 214)) ;
+    margin:100px auto;
+  }
+
+   form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  
+} 
+
+form>input{
+    margin:15px
+    
+}
+form>button{
+    background-color: rgb(34, 223, 34);
+    width: 100px;
+}
